@@ -8,3 +8,4 @@ Slides, Demos and Video Demos for the talk "Modern Identity Management (in the e
 3. Jan 11, 2019 at CodeMash (Sandusky, Ohio)
 4. Mar 15, 2019 at STEAM WomenDay (Guatemala City, Guatemala)
 5. Mar 22, 2019 at Codemotion Rome (Rome, Italy)
+6. Mar 28, 2019 at MadridJUG (Madrid, Spain)
