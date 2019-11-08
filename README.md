@@ -17,3 +17,5 @@ Slides, Demos and Video Demos for the talk "Modern Identity Management (in the e
 12. Aug 23, 2019 at IndyPy Web Conf (Virtual Conference)
 13. Aug 31, 2019 at PyCon Latam (Puerto Vallarta, Mexico)
 14. Sep 28, 2019 at Java Dev Day (Guadalajara, Mexico)
+15. Nov 1, 2019 at Devoxx Ukraine (Kiev, Ukraine)
+16. Nov 7, 2019 at Devoxx Belgium (Antwerp, Belgium)
