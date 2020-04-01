@@ -23,3 +23,6 @@ Slides, Demos and Video Demos for the talk "Modern Identity Management (in the e
 15. Nov 1, 2019 at Devoxx Ukraine (Kiev, Ukraine)
 16. Nov 7, 2019 at Devoxx Belgium (Antwerp, Belgium)
   * https://www.youtube.com/watch?v=3_4B22rysPQ
+17. Nov 23, 2019 at JJUG CCC 2019 Fall (Tokio, Japan)
+18. Mar 30, 2020 at JavaMexico Meetup (Virtual Meetup)
+  • https://www.youtube.com/watch?v=NCZS5HL1nbI
