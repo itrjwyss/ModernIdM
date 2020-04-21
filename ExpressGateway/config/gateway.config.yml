@@ -1,0 +1,62 @@
+http:
+  port: 9000
+apiEndpoints:
+  HelloWorld:
+    host: '*'
+    paths: /helloWorld
+    methods: ["POST"]
+  ValidateJWT:
+    host: '*'
+    paths: /validateJWT
+    methods: ["POST"]
+  APIEmail:
+    host: '*'
+    paths: /email
+    methods: ["POST"]
+serviceEndpoints:
+  HelloWorld:
+    url: '<Your HelloWorld endpoint url>'
+  ValidateJWT:
+    url: '<Your ValidateJWT endpoint url>'
+  EmailEndpoint:
+    url: <Your EmailEndpoint endpoint url>'
+policies:
+  - jwt
+  - proxy
+pipelines:
+  ModernIdM:
+    apiEndpoints:
+      - HelloWorld
+    policies:
+      - jwt:
+          - action:
+              secretOrPublicKeyFile: ./key/itrjwyss.pem
+              checkCredentialExistence: false
+      - proxy:
+          - action:
+              serviceEndpoint: HelloWorld
+              changeOrigin: true
+  ValidateJWT:
+    apiEndpoints:
+      - ValidateJWT
+    policies:
+      - jwt:
+          - action:
+              secretOrPublicKeyFile: ./key/itrjwyss.pem
+              checkCredentialExistence: false
+      - proxy:
+          - action:
+              serviceEndpoint: ValidateJWT
+              changeOrigin: true
+  EmailPipe:
+    apiEndpoints:
+      - APIEmail
+    policies:
+      - jwt:
+          - action:
+              secretOrPublicKeyFile: ./key/itrjwyss.pem
+              checkCredentialExistence: false
+      - proxy:
+          - action:
+              serviceEndpoint: EmailEndpoint
+              changeOrigin: true
