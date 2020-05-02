@@ -26,3 +26,5 @@ Slides, Demos and Video Demos for the talk "Modern Identity Management (in the e
 17. Nov 23, 2019 at JJUG CCC 2019 Fall (Tokio, Japan)
 18. Mar 30, 2020 at JavaMexico Meetup (Virtual Meetup)
   * https://www.youtube.com/watch?v=NCZS5HL1nbI
+19. Apr 21, 2020 at SGVirtual Conference (Virtual Conference)
+  * https://www.crowdcast.io/e/sgvirtual/16
