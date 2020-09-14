@@ -28,3 +28,4 @@ Slides, Demos and Video Demos for the talk "Modern Identity Management (in the e
   * https://www.youtube.com/watch?v=NCZS5HL1nbI
 19. Apr 21, 2020 at SGVirtual Conference (Virtual Conference)
   * https://www.crowdcast.io/e/sgvirtual/16
+20. 
